@@ -1,0 +1,52 @@
+# Segredos e configurações locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+credentials.json
+secrets.json
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.py[cod]
+pytest-cache-files-*/
+
+# Node, TypeScript e builds
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Dados gerados localmente
+apps/backend/data/*.json
+apps/backend/data/*.tmp
+!apps/backend/data/.gitkeep
+
+# Temporários, logs e sistema operacional
+.tmp/
+.temp/
+.test-tmp/
+tmp/
+temp/
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
